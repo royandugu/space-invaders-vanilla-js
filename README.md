@@ -9,6 +9,7 @@ before they reach the grid line that contains the user's space ship.
 
 ### Controls
 Left and right arrow keys => Move the ship left and right
+
 Space bar => Shoot the lazer 
 
 ### Features
