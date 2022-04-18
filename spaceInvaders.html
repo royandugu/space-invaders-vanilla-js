@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Space Invaders </title>
+        <link rel="stylesheet" type="text/css" href="spaceInvaders.css"/>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    </head>
+    <body>
+        <audio controls loop id="gameSound" hidden="true">
+            <source src="Audio/SpaceOddity.mp3" type="audio/mp3">
+            Your browser doesnot support the audio
+        </audio>
+        <div class="header">
+            <h1> Sp<span class="text-success">a</span>ce Invaders ... </h1>
+        </div> 
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-12 settingsPanel">
+                    <h2> Sfx </h2>
+                    <form>
+                        <input type="radio" name="sfxButton" class="onRadio"  checked/> On
+                        <input type="radio" name="sfxButton" class="offRadio"/> Off
+                    </form>
+                    <button class="btn btn-outline-light buttonTrigger"> Music on</button>
+                    <img src="./Images/astronaut.svg" class="astronautSVG"/>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="gridContainer"></div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-12 scoreBoard">
+                    <h4> Score : <span class="score"> 0 </span></h4>  
+                    <img src="Images/alienSVG.svg"/>
+                </div>
+            </div>
+        </div>
+        <div class="scorePanel">
+            <img src="./Images/crown.png" class="img-fluid"/>
+            <h3> Total Score : <span class="scoreDisplay"> 0 </span></h3>
+            <h3> Number of steps : <span class="stepDisplay"> 0 </span></h3>
+            <button class="btn btn-dark restartBtn"> Play Again </button> 
+        </div>
+    </body>
+    <script type="text/javascript" src="spaceInvaders.js"></script>
+</html>
