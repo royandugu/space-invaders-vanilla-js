@@ -7,7 +7,7 @@ as aliens move towards the user (grid by grid). Then the user
 has to shoot the lazer towards the aliens and destroy their ships
 before they reach the grid line that contains the user's space ship. 
 
-### controls
+### Controls
 Left and right arrow keys => Move the ship left and right
 Space bar => Shoot the lazer 
 
