@@ -17,4 +17,9 @@ Music on/off options - 8 bit space oddity
 SFX options = Lazer shooting and blast
 Score and steps counter
 
+
+
+![1](https://user-images.githubusercontent.com/95025114/184540269-6ddd67ae-3c35-44f9-8b90-60dd31dcedeb.jpg)
+
+
 ### Note:- The game has been made easier on purpose
